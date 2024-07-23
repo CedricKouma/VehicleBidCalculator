@@ -1,0 +1,6 @@
+@VehicleBidCalculator.Api_HostAddress = http://localhost:5038
+
+GET {{VehicleBidCalculator.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
