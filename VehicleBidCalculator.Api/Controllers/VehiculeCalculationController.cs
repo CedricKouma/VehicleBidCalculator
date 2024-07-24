@@ -25,7 +25,7 @@ namespace VehicleBidCalculator.Api.Controllers
                 VehicleType = vehicleType
             };
             var totalPrice = await _mediator.Send(query);
-            return Ok(new { TotalPrice = totalPrice });
+            return Ok(totalPrice);
         }
     }
 }
